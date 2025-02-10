@@ -110,7 +110,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             <li>
               <NavLink
-                to="/facebook"
+                to="#"
                 className={({ isActive }) =>
                   `flex items-center gap-2 no-underline ${
                     isActive ? "text-blue-500 font-semibold" : "text-white"
@@ -122,7 +122,7 @@ const Footer = () => {
 
             <li>
               <NavLink
-                to="/twitter"
+                to="#"
                 className={({ isActive }) =>
                   `flex items-center gap-2 no-underline ${
                     isActive ? "text-blue-500 font-semibold" : "text-white"
@@ -134,7 +134,7 @@ const Footer = () => {
 
             <li>
               <NavLink
-                to="/instagram"
+                to="#"
                 className={({ isActive }) =>
                   `flex items-center gap-2 no-underline ${
                     isActive ? "text-blue-500 font-semibold" : "text-white"
