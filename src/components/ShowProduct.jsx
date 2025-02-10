@@ -262,7 +262,7 @@ function ProductShow() {
       </div>
 
       {/* Right Side: Scrollable */}
-      <div className="bg-white shadow-lg rounded-lg p-4 w-full md:w-2/5 overflow-y-auto h-[calc(85vh-32px)]">
+      <div className="bg-white shadow-lg rounded-lg p-4 w-full md:w-2/5 overflow-y-auto h-[calc(90vh-32px)]">
         <h3 className="text-lg font-semibold text-gray-800 mb-4">Comments</h3>
         {!isedit && newComment.find((commt) => commt.user._id === user.id) ? (
           <div>You have already reviewed</div>
